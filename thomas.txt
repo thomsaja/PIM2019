@@ -1,0 +1,6 @@
+Username =   thomas
+Item     =   teh
+Harga    =   10000
+Jumlah   =   1
+Total    =   10000
+Total    =   2019/01/20
