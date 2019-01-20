@@ -10,7 +10,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Hashtable;
-import java.util.Stack;
 import javax.swing.JComboBox;
 import javax.swing.table.DefaultTableModel;
 import java.util.*;
@@ -23,7 +22,6 @@ import javax.swing.JOptionPane;
 public class MasukanMakan extends javax.swing.JFrame {
 
     private DefaultTableModel tabmode;
-    Stack<String> stk = new Stack<>();
     private Connection conn = new koneksi().connect();
 
     void combo() {
